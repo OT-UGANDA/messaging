@@ -334,6 +334,14 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_FAILED_TO_GENERATE_MAP = OT_WS + "068";
     /** ser_ot069 - Failed to create map. */
     public static final String OT_WS_CLAIM_FAILED_TO_CREATE_MAP = OT_WS + "069";
+    /** ser_ot070 - Certificate can be printed only for moderated claims and by users with PrintCertificate role. */
+    public static final String OT_WS_CLAIM_CERT_PRINT_NOT_ALLOWED = OT_WS + "070";
+    /** ser_ot071 - Claim can not be issued. It must have Moderated status. */
+    public static final String OT_WS_CLAIM_CANT_ISSUE = OT_WS + "071";
+    /** ser_ot072 - Claim can not be marked as issued. The following documents must be attached first - "{0}". */
+    public static final String OT_WS_CLAIM_CANT_ISSUE_FOUND_MISSING_DOCS = OT_WS + "072";
+    /** ser_ot073 - Document attachment must be provided. */
+    public static final String OT_WS_CLAIM_DOCUMENT_ATTACHMENT_MISSING = OT_WS + "073";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
