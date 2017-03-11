@@ -342,6 +342,8 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_CANT_ISSUE_FOUND_MISSING_DOCS = OT_WS + "072";
     /** ser_ot073 - Document attachment must be provided. */
     public static final String OT_WS_CLAIM_DOCUMENT_ATTACHMENT_MISSING = OT_WS + "073";
+    /** ser_ot074 - Claim can not be transferred, because of it's state. */
+    public static final String OT_WS_CLAIM_CANT_TRANSFER = OT_WS + "074";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
