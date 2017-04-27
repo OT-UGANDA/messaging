@@ -344,6 +344,14 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_DOCUMENT_ATTACHMENT_MISSING = OT_WS + "073";
     /** ser_ot074 - Claim can not be transferred, because of it's state. */
     public static final String OT_WS_CLAIM_CANT_TRANSFER = OT_WS + "074";
+    /** ser_ot075 - Claim "{0}" must be with Moderated status */
+    public static final String OT_WS_CLAIM_MUST_BE_MODERATED = OT_WS + "075";
+    /** ser_ot076 - Claim "{0}" has registered restrictions. They must be terminated first. */
+    public static final String OT_WS_CLAIM_HAS_RESTRICTIONS = OT_WS + "076";
+    /** ser_ot077 - For claims merge, there must be at least 2 claims to merge and 1 new claim as a result of merge. */
+    public static final String OT_WS_CLAIM_MERGE_WRONG_COUNT = OT_WS + "077";
+    /** ser_ot078 - For claims split, there must be 1 claim to split and at least 2 new claims as a result of split. */
+    public static final String OT_WS_CLAIM_SPLIT_WRONG_COUNT = OT_WS + "078";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
@@ -354,4 +362,3 @@ public class ServiceMessage {
     /** serredact004 - MMM d, yyyy HH:mm */
     public static final String REDACT_DATE_FORMAT = REDACT + "004";
 }
-
